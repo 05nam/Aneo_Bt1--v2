@@ -1,0 +1,57 @@
+$btn--blue: #616ae8;
+$btn--green: #20e5a7;
+$background--page: #f2f2f2;
+$pink: #fbe9e9;
+$green: #e7faf9;
+$purple: #f5ecfd;
+$blue: #e7effb;
+$color_text-button: #ffffff;
+$color_text: #7e7fa0;
+$color_text-title: #2e2a41;
+
+// btn
+.btnx {
+  outline: none;
+  padding: 12px;
+  border-radius: 13px;
+  border: none;
+  text-align: center;
+  line-height: 23px;
+  a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    text-decoration: none;
+    color: $color_text-button;
+  }
+}
+.btnx:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+.btnx:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+.btn--blue {
+  background-color: $btn--blue;
+  margin-right: 15px;
+}
+.btn--green {
+  background-color: $btn--green;
+}
+
+// maxwidth 767
+@media screen and (max-width: 767px) {
+  .btnx {
+    width: 100%;
+    margin-right: 0;
+  }
+  .btn--blue {
+    margin-bottom: 12px;
+  }
+  .navbar .navbar__links--menu ul li a {
+    text-align: center;
+  }
+}

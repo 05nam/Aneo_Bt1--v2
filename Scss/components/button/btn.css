@@ -1,0 +1,48 @@
+.btnx {
+  outline: none;
+  padding: 12px;
+  border-radius: 13px;
+  border: none;
+  text-align: center;
+  line-height: 23px;
+}
+.btnx a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.btnx:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.btnx:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+.btn--blue {
+  background-color: #616ae8;
+  margin-right: 15px;
+}
+
+.btn--green {
+  background-color: #20e5a7;
+}
+
+@media screen and (max-width: 767px) {
+  .btnx {
+    width: 100%;
+    margin-right: 0;
+  }
+  .btn--blue {
+    margin-bottom: 12px;
+  }
+  .navbar .navbar__links--menu ul li a {
+    text-align: center;
+  }
+}/*# sourceMappingURL=btn.css.map */

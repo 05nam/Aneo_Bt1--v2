@@ -1,0 +1,23 @@
+$color_text: #7e7fa0;
+$color_text-title: #2e2a41;
+
+.title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 45px;
+  text-align: center;
+  color: $color_text-title;
+  .title--textColor {
+    color: #5e68f9;
+  }
+}
+.top--desc {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: $color_text;
+  padding-top: 18px;
+}
