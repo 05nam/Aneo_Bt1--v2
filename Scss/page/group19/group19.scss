@@ -1,36 +1,22 @@
-.group19__bottom {
+.group19-bottom {
   padding-top: 40px;
   padding-bottom: 115px;
-  .item {
-    margin-bottom: 15px;
-    .imgdesign img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-    .content {
-      padding: 15px 15px 0 15px;
-      position: relative;
-      .content--text {
-        font-style: normal;
-        font-weight: 500;
-        font-size: 15px;
-        line-height: 22px;
-        color: #2e2a41;
-      }
-      .content--date {
-        font-family: "Poppins";
-        font-style: normal;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 18px;
-        color: #7e7fa0;
-      }
-    }
-  }
 }
 
-.content .label {
+//cardItem
+.cardItem {
+  margin-bottom: 15px;
+}
+.cardItem__imgdesign img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.cardItem__content {
+  padding: 15px 15px 0 15px;
+  position: relative;
+}
+.cardItem__content--label {
   display: inline-block;
   position: absolute;
   padding: 5px 15px;
@@ -38,16 +24,30 @@
   background-color: #5d69fb;
   top: -25px;
   left: 0;
-  .label__back {
-    width: 0;
-    height: 0;
-    border-left: 0px solid transparent;
-    border-right: 17px solid transparent;
-    border-bottom: 25px solid #3e46a4;
-    position: absolute;
-    top: 0px;
-    right: -17px;
-  }
+}
+.label__back {
+  width: 0;
+  height: 0;
+  border-left: 0px solid transparent;
+  border-right: 17px solid transparent;
+  border-bottom: 25px solid #3e46a4;
+  position: absolute;
+  top: 0px;
+  right: -17px;
+}
+.cardItem__content--text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  color: #2e2a41;
+}
+.cardItem__content--date {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #7e7fa0;
 }
 
 //1200px
@@ -55,15 +55,5 @@
   .group19 {
     padding-left: 91px;
     padding-right: 175px;
-  }
-  .group19__bottom {
-    margin-left: -30px;
-    .item {
-      max-width: calc(33.333% - 30px);
-      margin-left: 30px;
-      margin-bottom: 30px;
-      padding-right: 0;
-      padding-left: 0;
-    }
   }
 }

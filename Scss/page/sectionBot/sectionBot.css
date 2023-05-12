@@ -10,33 +10,18 @@
   border-radius: 25px;
 }
 
-.sectionBottom__bottom {
+.sectionBottom-bottom {
   padding-top: 20px;
 }
-.sectionBottom__bottom .item {
+
+.cards {
   padding: 28px;
   background-color: #f2f2f2;
   border-radius: 20px;
   border: 1px solid #ffffff;
   margin-bottom: 12px;
 }
-.sectionBottom__bottom .item .content--title {
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 27px;
-  color: #2e2a41;
-}
-.sectionBottom__bottom .item .content--desc {
-  padding-top: 5px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
-  color: #7e7fa0;
-}
-
-.item .item--icon {
+.cards .cards__icon {
   width: 70px;
   height: 70px;
   display: flex;
@@ -44,7 +29,16 @@
   justify-content: center;
   border-radius: 50%;
 }
-.item .icon-border {
+
+.cards__icon {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.cards__icon .cards__icon--border {
   border-radius: 5px;
   border: 3px solid;
   width: 34px;
@@ -54,63 +48,79 @@
   justify-content: center;
 }
 
-.icon--bg1 {
+.cards__content .cards__content--title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #2e2a41;
+}
+.cards__content .cards__content--desc {
+  padding-top: 5px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #7e7fa0;
+}
+
+.cards--bg1 {
   background-color: #fff0f0;
 }
-.icon--bg1 .icon-1 {
+.cards--bg1 .cards__icon--border {
   border-color: #fd9b9b;
 }
-.icon--bg1 .icon-1 .fa-solid {
+.cards--bg1 .fa-solid {
   color: #fd9b9b;
 }
 
-.icon--bg2 {
+.cards--bg2 {
   background-color: #f3e9fd;
 }
-.icon--bg2 .icon-2 {
+.cards--bg2 .cards__icon--border {
   border-color: #b06bf1;
 }
-.icon--bg2 .icon-2 .fa-solid {
+.cards--bg2 .cards__icon--border .fa-solid {
   color: #b06bf1;
 }
 
-.icon--bg3 {
+.cards--bg3 {
   background-color: #e3f8fa;
 }
-.icon--bg3 .icon-3 {
+.cards--bg3 .cards__icon--border {
   border-color: #45ccdb;
 }
-.icon--bg3 .icon-3 .fa-solid {
+.cards--bg3 .cards__icon--border .fa-solid {
   color: #45ccdb;
 }
 
-.icon--bg4 {
+.cards--bg4 {
   background-color: #e5e6fd;
 }
-.icon--bg4 .icon-4 {
+.cards--bg4 .cards__icon--border {
   border-color: #545cf0;
 }
-.icon--bg4 .icon-4 .fa-solid {
+.cards--bg4 .cards__icon--border .fa-solid {
   color: #545cf0;
 }
 
-.icon--bg5 {
+.cards--bg5 {
   background-color: #fde9f3;
 }
-.icon--bg5 .icon-5 {
+.cards--bg5 .cards__icon--border {
   border-color: #f16bac;
 }
-.icon--bg5 .icon-5 .fa-solid {
+.cards--bg5 .cards__icon--border .fa-solid {
   color: #f16bac;
 }
 
-.icon--bg6 {
+.cards--bg6 {
   background-color: #e4fae6;
 }
-.icon--bg6 .icon-6 {
+.cards--bg6 .cards__icon--border {
   border-color: #48de57;
 }
-.icon--bg6 .icon-6 .fa-solid {
+.cards--bg6 .cards__icon--border .fa-solid {
   color: #48de57;
 }
 
@@ -122,48 +132,33 @@
     margin-left: -30px;
     padding: 40px 70px 70px 70px;
   }
-  .sectionBottom__bottom .item {
-    margin-left: 30px;
-    margin-bottom: 30px;
-    max-width: calc(33.3333% - 30px);
-  }
 }
 @media (min-width: 992px) {
-  .sectionBottom__bottom {
+  .sectionBottom-bottom {
     margin-left: -30px;
-  }
-  .sectionBottom__bottom .item {
-    margin-left: 30px;
-    margin-bottom: 30px;
-    max-width: calc(33.3333% - 30px);
   }
 }
 @media (min-width: 768px) {
   .outside__bg {
     padding: 50px 0;
   }
-  .sectionBottom__bottom {
+  .sectionBottom-bottom {
     padding: 30px 0 0 0;
   }
-  .sectionBottom__bottom {
+  .sectionBottom-bottom {
     margin-left: -20px;
-  }
-  .sectionBottom__bottom .item {
-    margin-left: 20px;
-    margin-bottom: 20px;
-    max-width: calc(33.3333% - 20px);
   }
 }
 @media (min-width: 576px) {
   .outside__bg {
     padding: 50px 0;
   }
-  .sectionBottom__bottom {
+  .sectionBottom-bottom {
     padding-top: 25px;
     padding-left: 0;
     padding-right: 0;
   }
-  .sectionBottom__bottom .item {
+  .sectionBottom-bottom .cards {
     margin-bottom: 15px;
   }
 }/*# sourceMappingURL=sectionBot.css.map */

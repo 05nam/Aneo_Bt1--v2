@@ -15,10 +15,10 @@ $color_text-title: #2e2a41;
   width: 100%;
   margin: 0 auto;
 }
-.cards {
-  .card__item {
+.tickets {
+  .ticket {
     position: relative;
-    .cycle--bg {
+    .ticket__cycle {
       position: absolute;
       z-index: -1;
       border-radius: 50%;
@@ -28,14 +28,14 @@ $color_text-title: #2e2a41;
       left: -25px;
     }
 
-    .item--title {
+    .ticket__title {
       font-style: normal;
       font-weight: 600;
       font-size: 20px;
       line-height: 30px;
       color: $color_text-title;
     }
-    .item--desc {
+    .ticket__desc {
       font-style: normal;
       font-weight: 400;
       font-size: 15px;
@@ -45,16 +45,16 @@ $color_text-title: #2e2a41;
     }
   }
 }
-.bg--pink {
+.ticket--bg-pink {
   background-color: #fbe9e9;
 }
-.bg--purple {
+.ticket--bg-purple {
   background-color: #f5ecfd;
 }
-.bg--green {
+.ticket--bg-green {
   background-color: #e7faf9;
 }
-.bg--blue {
+.ticket--bg-blue {
   background-color: #e7effb;
 }
 
@@ -80,6 +80,12 @@ $color_text-title: #2e2a41;
 
 @media (max-width: 991px) {
   .cards .card__item {
+    padding-bottom: 50px;
+  }
+  .tickets .ticket .ticket__desc {
+    padding-top: 50px;
+  }
+  .tickets .ticket {
     padding-bottom: 50px;
   }
 }

@@ -9,17 +9,17 @@ $color_text-title: #2e2a41;
   position: relative;
   z-index: 1;
 }
-.sectionMid__bottom {
+.sectionMid-bottom {
   padding-top: 130px;
   margin: 0;
   width: 100%;
-  .left {
+  .sectionMid-bottom__left {
     padding: 0 25px;
     position: relative;
     display: flex;
     align-items: center;
 
-    .left--outframe {
+    .sectionMid-bottom__left--outframe {
       width: 80%;
       height: 100%;
       background: #f0f9fe;
@@ -30,14 +30,14 @@ $color_text-title: #2e2a41;
       position: absolute;
       z-index: -1;
     }
-    .left--img {
+    .sectionMid-bottom__left--img {
       width: 100%;
       object-fit: cover;
     }
   }
-  .right {
+  .sectionMid-bottom__right {
     padding: 0 30px;
-    .right--icon {
+    .sectionMid-bottom__right--icon {
       font-size: 75px;
       color: #5e68f9;
       margin-bottom: 15px;
@@ -48,7 +48,7 @@ $color_text-title: #2e2a41;
         padding: 15px;
       }
     }
-    .right--desc {
+    .sectionMid-bottom__right--desc {
       padding-top: 40px;
       font-style: normal;
       font-weight: 400;
@@ -56,7 +56,7 @@ $color_text-title: #2e2a41;
       line-height: 28px;
       color: $color_text;
     }
-    .right--sign {
+    .sectionMid-bottom__right--sign {
       padding-top: 40px;
       padding-left: 32px;
       font-style: normal;
@@ -66,7 +66,7 @@ $color_text-title: #2e2a41;
       color: $color_text-title;
       position: relative;
     }
-    .right--dot {
+    .sectionMid-bottom__right--dot {
       display: flex;
       margin-top: 60px;
       align-items: center;
@@ -97,7 +97,7 @@ $color_text-title: #2e2a41;
   background-color: $color_text;
   transform: translateY(-50%);
 }
-.sectionMid__bottom--right {
+.sectionMid-bottom__right {
   .right--icon span {
     position: relative;
   }
@@ -132,13 +132,13 @@ $color_text-title: #2e2a41;
   .sectionMid {
     padding: 0px;
   }
-  .sectionMid__bottom {
+  .sectionMid-bottom {
     padding-top: 50px;
   }
-  .sectionMid__bottom .right .right--icon {
+  .sectionMid-bottom .right .right--icon {
     font-size: 20px;
   }
-  .sectionMid__bottom .right .right--desc {
+  .sectionMid-bottom .right .right--desc {
     padding-top: 0px;
   }
 }
@@ -148,16 +148,16 @@ $color_text-title: #2e2a41;
     padding-right: 12px;
     padding-left: 12px;
   }
-  .sectionMid__bottom .right .right--icon {
+  .sectionMid-bottom .sectionMid-bottom__right .sectionMid-bottom__right--icon {
     display: none;
   }
-  .sectionMid__bottom {
+  .sectionMid-bottom {
     padding-top: 50px;
   }
-  .sectionMid__bottom .right .right--sign {
+  .sectionMid-bottom .right--sign {
     padding-top: 15px;
   }
-  .sectionMid__bottom .right .right--dot {
+  .sectionMid-bottom .right .right--dot {
     justify-content: center;
     margin-top: 20px;
   }

@@ -22,35 +22,18 @@ $color_text-title: #2e2a41;
 }
 // sectionBottom__bottom
 
-.sectionBottom__bottom {
+.sectionBottom-bottom {
   padding-top: 20px;
-  .item {
-    padding: 28px;
-    background-color: $background--page;
-    border-radius: 20px;
-    border: 1px solid #ffffff;
-    margin-bottom: 12px;
-
-    .content--title {
-      font-style: normal;
-      font-weight: 600;
-      font-size: 18px;
-      line-height: 27px;
-      color: $color_text-title;
-    }
-    .content--desc {
-      padding-top: 5px;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 15px;
-      line-height: 24px;
-      color: $color_text;
-    }
-  }
 }
 
-.item {
-  .item--icon {
+// cards
+.cards {
+  padding: 28px;
+  background-color: $background--page;
+  border-radius: 20px;
+  border: 1px solid #ffffff;
+  margin-bottom: 12px;
+  .cards__icon {
     width: 70px;
     height: 70px;
     display: flex;
@@ -58,7 +41,15 @@ $color_text-title: #2e2a41;
     justify-content: center;
     border-radius: 50%;
   }
-  .icon-border {
+}
+.cards__icon {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  .cards__icon--border {
     border-radius: 5px;
     border: 3px solid;
     width: 34px;
@@ -69,60 +60,71 @@ $color_text-title: #2e2a41;
   }
 }
 
-.icon--bg1 {
-  background-color: #fff0f0;
-
-  .icon-1 {
-    border-color: #fd9b9b;
-    .fa-solid {
-      color: #fd9b9b;
-    }
+.cards__content {
+  .cards__content--title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: $color_text-title;
+  }
+  .cards__content--desc {
+    padding-top: 5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: $color_text;
   }
 }
-.icon--bg2 {
+.cards--bg1 {
+  background-color: #fff0f0;
+  .cards__icon--border {
+    border-color: #fd9b9b;
+  }
+  .fa-solid {
+    color: #fd9b9b;
+  }
+}
+.cards--bg2 {
   background-color: #f3e9fd;
-
-  .icon-2 {
+  .cards__icon--border {
     border-color: #b06bf1;
     .fa-solid {
       color: #b06bf1;
     }
   }
 }
-.icon--bg3 {
+.cards--bg3 {
   background-color: #e3f8fa;
-
-  .icon-3 {
+  .cards__icon--border {
     border-color: #45ccdb;
     .fa-solid {
       color: #45ccdb;
     }
   }
 }
-.icon--bg4 {
+.cards--bg4 {
   background-color: #e5e6fd;
-
-  .icon-4 {
+  .cards__icon--border {
     border-color: #545cf0;
     .fa-solid {
       color: #545cf0;
     }
   }
 }
-.icon--bg5 {
+.cards--bg5 {
   background-color: #fde9f3;
-
-  .icon-5 {
+  .cards__icon--border {
     border-color: #f16bac;
     .fa-solid {
       color: #f16bac;
     }
   }
 }
-.icon--bg6 {
+.cards--bg6 {
   background-color: #e4fae6;
-
-  .icon-6 {
+  .cards__icon--border {
     border-color: #48de57;
     .fa-solid {
       color: #48de57;
@@ -139,23 +141,12 @@ $color_text-title: #2e2a41;
   .sectionBottom__bottom {
     margin-left: -30px;
     padding: 40px 70px 70px 70px;
-    .item {
-      margin-left: 30px;
-      margin-bottom: 30px;
-      max-width: calc(33.3333% - 30px);
-    }
   }
 }
 //992px
 @media (min-width: 992px) {
-  .sectionBottom__bottom {
+  .sectionBottom-bottom {
     margin-left: -30px;
-
-    .item {
-      margin-left: 30px;
-      margin-bottom: 30px;
-      max-width: calc(33.3333% - 30px);
-    }
   }
 }
 //768px
@@ -163,16 +154,11 @@ $color_text-title: #2e2a41;
   .outside__bg {
     padding: 50px 0;
   }
-  .sectionBottom__bottom {
+  .sectionBottom-bottom {
     padding: 30px 0 0 0;
   }
-  .sectionBottom__bottom {
+  .sectionBottom-bottom {
     margin-left: -20px;
-    .item {
-      margin-left: 20px;
-      margin-bottom: 20px;
-      max-width: calc(33.3333% - 20px);
-    }
   }
 }
 
@@ -181,13 +167,13 @@ $color_text-title: #2e2a41;
   .outside__bg {
     padding: 50px 0;
   }
-  .sectionBottom__bottom {
+  .sectionBottom-bottom {
     padding-top: 25px;
     padding-left: 0;
     padding-right: 0;
   }
-  .sectionBottom__bottom {
-    .item {
+  .sectionBottom-bottom {
+    .cards {
       margin-bottom: 15px;
     }
   }

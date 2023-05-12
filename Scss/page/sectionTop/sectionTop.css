@@ -4,10 +4,10 @@
   margin: 0 auto;
 }
 
-.cards .card__item {
+.tickets .ticket {
   position: relative;
 }
-.cards .card__item .cycle--bg {
+.tickets .ticket .ticket__cycle {
   position: absolute;
   z-index: -1;
   border-radius: 50%;
@@ -16,14 +16,14 @@
   top: -40px;
   left: -25px;
 }
-.cards .card__item .item--title {
+.tickets .ticket .ticket__title {
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
   line-height: 30px;
   color: #2e2a41;
 }
-.cards .card__item .item--desc {
+.tickets .ticket .ticket__desc {
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -32,19 +32,19 @@
   padding-top: 35px;
 }
 
-.bg--pink {
+.ticket--bg-pink {
   background-color: #fbe9e9;
 }
 
-.bg--purple {
+.ticket--bg-purple {
   background-color: #f5ecfd;
 }
 
-.bg--green {
+.ticket--bg-green {
   background-color: #e7faf9;
 }
 
-.bg--blue {
+.ticket--bg-blue {
   background-color: #e7effb;
 }
 
@@ -66,6 +66,12 @@
 }
 @media (max-width: 991px) {
   .cards .card__item {
+    padding-bottom: 50px;
+  }
+  .tickets .ticket .ticket__desc {
+    padding-top: 50px;
+  }
+  .tickets .ticket {
     padding-bottom: 50px;
   }
 }/*# sourceMappingURL=sectionTop.css.map */

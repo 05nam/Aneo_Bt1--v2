@@ -1,4 +1,4 @@
-.title {
+.general-content__title {
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -6,11 +6,11 @@
   text-align: center;
   color: #2e2a41;
 }
-.title .title--textColor {
+.general-content__title .title--textColor {
   color: #5e68f9;
 }
 
-.top--desc {
+.general-content__desc {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
