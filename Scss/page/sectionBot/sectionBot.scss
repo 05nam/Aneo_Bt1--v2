@@ -22,7 +22,7 @@ $color_text-title: #2e2a41;
 }
 // sectionBottom__bottom
 
-.sectionBottom-bottom {
+.sectionBottom__bottom {
   padding-top: 20px;
 }
 
@@ -154,10 +154,10 @@ $color_text-title: #2e2a41;
   .outside__bg {
     padding: 50px 0;
   }
-  .sectionBottom-bottom {
+  .sectionBottom__bottom {
     padding: 30px 0 0 0;
   }
-  .sectionBottom-bottom {
+  .sectionBottom__bottom {
     margin-left: -20px;
   }
 }
@@ -167,12 +167,12 @@ $color_text-title: #2e2a41;
   .outside__bg {
     padding: 50px 0;
   }
-  .sectionBottom-bottom {
+  .sectionBottom__bottom {
     padding-top: 25px;
     padding-left: 0;
     padding-right: 0;
   }
-  .sectionBottom-bottom {
+  .sectionBottom__bottom {
     .cards {
       margin-bottom: 15px;
     }

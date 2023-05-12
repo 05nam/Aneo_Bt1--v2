@@ -9,17 +9,17 @@ $color_text-title: #2e2a41;
   position: relative;
   z-index: 1;
 }
-.sectionMid-bottom {
+.sectionMid__bottom {
   padding-top: 130px;
   margin: 0;
   width: 100%;
-  .sectionMid-bottom__left {
+  .sectionMid__bottom--left {
     padding: 0 25px;
     position: relative;
     display: flex;
     align-items: center;
 
-    .sectionMid-bottom__left--outframe {
+    .sectionMid__bottom--left-outframe {
       width: 80%;
       height: 100%;
       background: #f0f9fe;
@@ -30,14 +30,14 @@ $color_text-title: #2e2a41;
       position: absolute;
       z-index: -1;
     }
-    .sectionMid-bottom__left--img {
+    .sectionMid__bottom--left-img {
       width: 100%;
       object-fit: cover;
     }
   }
-  .sectionMid-bottom__right {
+  .sectionMid__bottom--right {
     padding: 0 30px;
-    .sectionMid-bottom__right--icon {
+    .sectionMid__bottom--right-icon {
       font-size: 75px;
       color: #5e68f9;
       margin-bottom: 15px;
@@ -48,7 +48,7 @@ $color_text-title: #2e2a41;
         padding: 15px;
       }
     }
-    .sectionMid-bottom__right--desc {
+    .sectionMid__bottom--right-desc {
       padding-top: 40px;
       font-style: normal;
       font-weight: 400;
@@ -56,7 +56,7 @@ $color_text-title: #2e2a41;
       line-height: 28px;
       color: $color_text;
     }
-    .sectionMid-bottom__right--sign {
+    .sectionMid__bottom--right-sign {
       padding-top: 40px;
       padding-left: 32px;
       font-style: normal;
@@ -66,18 +66,18 @@ $color_text-title: #2e2a41;
       color: $color_text-title;
       position: relative;
     }
-    .sectionMid-bottom__right--dot {
+    .dot {
       display: flex;
       margin-top: 60px;
       align-items: center;
-      .dot-item {
+      .dot__item {
         width: 16px;
         height: 16px;
         border-radius: 50%;
         background-color: #e8e8eb;
         margin-right: 16px;
       }
-      .dot-highlight {
+      .dot__highlight {
         background-color: $btn--blue;
         width: 21px;
         height: 21px;
@@ -132,13 +132,13 @@ $color_text-title: #2e2a41;
   .sectionMid {
     padding: 0px;
   }
-  .sectionMid-bottom {
+  .sectionMid__bottom {
     padding-top: 50px;
   }
-  .sectionMid-bottom .right .right--icon {
+  .sectionMid__bottom .right .right--icon {
     font-size: 20px;
   }
-  .sectionMid-bottom .right .right--desc {
+  .sectionMid__bottom .right .right--desc {
     padding-top: 0px;
   }
 }
@@ -148,16 +148,18 @@ $color_text-title: #2e2a41;
     padding-right: 12px;
     padding-left: 12px;
   }
-  .sectionMid-bottom .sectionMid-bottom__right .sectionMid-bottom__right--icon {
+  .sectionMid__bottom
+    .sectionMid-bottom__right
+    .sectionMid-bottom__right--icon {
     display: none;
   }
-  .sectionMid-bottom {
+  .sectionMid__bottom {
     padding-top: 50px;
   }
-  .sectionMid-bottom .right--sign {
+  .sectionMid__bottom .right--sign {
     padding-top: 15px;
   }
-  .sectionMid-bottom .right .right--dot {
+  .sectionMid__bottom .right .right--dot {
     justify-content: center;
     margin-top: 20px;
   }
